@@ -6,20 +6,26 @@
 
 2. 핵심 기능
 AI 실시간 행동 감지: YOLOv8-Pose를 활용해 코와 손목 사이의 유클리드 거리를 측정하여 흡연 동작을 판별하고, 물체와의 벡터 거리 변화를 추적하여 무단 투기를 감지합니다.
-<img width="530" height="964" alt="image" src="https://github.com/user-attachments/assets/641a4103-b069-4a46-8442-ba9b511ae83f" />
+<img width="400" height="auto" alt="행동 감지" src="https://github.com/user-attachments/assets/641a4103-b069-4a46-8442-ba9b511ae83f" />
 
 프라이버시 보호 기능: 행인의 초상권 침해 방지를 위해 평상시 모니터링 화면에서는 얼굴 영역을 실시간으로 블러 처리하여 송출합니다.
-<img width="1404" height="636" alt="image" src="https://github.com/user-attachments/assets/78d9023d-9c4c-4056-91c0-405ae2409ee2" />
+<img width="700" height="auto" alt="프라이버시 보" src="https://github.com/user-attachments/assets/78d9023d-9c4c-4056-91c0-405ae2409ee2" />
 
 스마트 알림 및 경고: 위반 상황이 감지되면 화면 테두리가 붉은색으로 점멸하며 시각적 경고를 보내고, 동시에 현장에 TTS 안내 방송을 자동으로 송출합니다.
-<img width="582" height="972" alt="image" src="https://github.com/user-attachments/assets/e4d437b2-8d5a-44e6-8317-97c68b6b85a0" />
-<img width="586" height="976" alt="image" src="https://github.com/user-attachments/assets/817761a7-52e8-4c72-9d3e-5f8edf27c2fa" />
-<img width="582" height="1018" alt="image" src="https://github.com/user-attachments/assets/7237875b-5021-4ade-8343-b77b5af7ac72" />
+<table> <tr> <td align="center"><img src="https://github.com/user-attachments/assets/e4d437b2-8d5a-44e6-8317-97c68b6b85a0" width="250">
+
+
+<sub>감지 알림 1</sub></td> <td align="center"><img src="https://github.com/user-attachments/assets/817761a7-52e8-4c72-9d3e-5f8edf27c2fa" width="250">
+
+
+<sub>감지 알림 2</sub></td> <td align="center"><img src="https://github.com/user-attachments/assets/7237875b-5021-4ade-8343-b77b5af7ac72" width="250">
+
+
+<sub>상세 로그</sub></td> </tr> </table>
 
 
 실시간 통계 대시보드: 위반 유형별 발생 빈도를 도넛 차트로 시각화하여 관리자가 주요 이슈를 한눈에 파악할 수 있도록 지원합니다.
-<img width="447" height="735" alt="image" src="https://github.com/user-attachments/assets/2b479308-b6f4-46c3-9777-87a39a76f524" />
-
+<img width="350" alt="대시보드" src="https://github.com/user-attachments/assets/2b479308-b6f4-46c3-9777-87a39a76f524" />
 
 3. 기술 스택
 AI 및 비전: Python, YOLOv8 (Pose/Detect), OpenCV
